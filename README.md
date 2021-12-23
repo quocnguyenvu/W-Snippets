@@ -1,6 +1,6 @@
 # W Snippets Extension for FrontEnd Developer by ngvuq
 
-# Useful HTML and CSS snippets that will help you save a lot of time when coding.
+### Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
 -   Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/)
 
@@ -63,6 +63,7 @@
 | `abs-full-width`    | Position absolute full width                                                                     |
 | `abs-full-height`   | Position absolute full height                                                                    |
 | `abs-dropdown`      | Using when you make dropdown list absolute or dropdown menu when parent have `position` property |
+| `dflex`             | Display Flex                                                                                     |
 | `flex-center`       | Center thing with flexbox                                                                        |
 | `flex-centerc`      | Center flexbox column direction                                                                  |
 | `flex-image`        | Using for image when make layout row direction with flexbox                                      |
