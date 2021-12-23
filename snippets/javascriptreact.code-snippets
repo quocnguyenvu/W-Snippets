@@ -80,23 +80,5 @@
         ],
         "description": "UI Component for link wrapped image"
     },
-    "JavaScript Navigation Effect": {
-        "prefix": "js-nav-effect",
-        "body": [
-            "const menuLinks = document.querySelectorAll(\".nav-link\");",
-            "menuLinks.forEach((menuLink) =>",
-            "    menuLink.addEventListener(\"click\", function (event) {",
-            "        menuLinks.forEach((el) => el.classList.remove(\"active\"));",
-            "        event.target.classList.add(\"active\");",
-            "    })",
-            ");",
-            "const navigation = document.querySelector(\".navigation\");",
-            "const btnNav = document.querySelector(\".btn-nav-event\");",
-            "btnNav.addEventListener(\"click\", function () {",
-            "    navigation.classList.toggle(\"small-nav\");",
-            "    btnNav.classList.toggle(\"s-nav\");",
-            "});"
-        ],
-        "description": "JavaScript Navigation Effect"
-    }
+    
 }

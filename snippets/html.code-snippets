@@ -1,4 +1,83 @@
 {
+    "Import Ionicons": {
+        "prefix": "cdn-ionicons",
+        "body": [
+            "<script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>",
+            "<script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>"
+        ],
+        "description": "Import Ionicons"
+    },
+    "Import google font": {
+        "prefix": "cdn-google-font",
+        "body": [
+            "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+            "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+            "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
+        ],
+        "description": "Import google font"
+    },
+    "Import slick slider": {
+        "prefix": "cdn-slick-js",
+        "body": [
+            "<script",
+            "  type=\"text/javascript\"",
+            "  src=\"https://code.jquery.com/jquery-1.11.0.min.js\"",
+            "></script>",
+            "<script",
+            "  type=\"text/javascript\"",
+            "  src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"",
+            "></script>",
+            "<script",
+            "  type=\"text/javascript\"",
+            "  src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"",
+            "></script>"
+        ],
+        "description": "Import slick slider"
+    },
+    "Import Fontawesome": {
+        "prefix": "cdn-fontawesome",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" integrity=\"sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
+        ],
+        "description": "Import Fontawesome"
+    },
+    "Slick CSS import": {
+        "prefix": "cdn-slick-css",
+        "body": [
+            "<link",
+            "    rel=\"stylesheet\"",
+            "    type=\"text/css\"",
+            "    href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"",
+            "  />"
+        ],
+        "description": "Slick CSS import"
+    },
+    "Swiper Slider CDN": {
+        "prefix": "cdn-swiper",
+        "body": [
+            "<link",
+            "  rel=\"stylesheet\"",
+            "  href=\"https://unpkg.com/swiper@7/swiper-bundle.min.css\"",
+            "/>",
+            "",
+            "<script src=\"https://unpkg.com/swiper@7/swiper-bundle.min.js\"></script>"
+        ],
+        "description": "Swiper Slider CDN"
+    },
+    "Box Icon CSS CDN": {
+        "prefix": "cdn-boxicons",
+        "body": [
+            "<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>"
+        ],
+        "description": "Box Icon CSS CDN"
+    },
+    "Import favicon": {
+        "prefix": "html-favicon",
+        "body": [
+            "<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\" />"
+        ],
+        "description": "Import favicon"
+    },
     "UI Component for menu": {
         "prefix": "html-menu",
         "body": [
@@ -75,145 +154,5 @@
             "</a>"
         ],
         "description": "UI Component for link wrapped image"
-    },
-    "Import Ionicons": {
-        "prefix": "html-ionicons",
-        "body": [
-            "<script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>",
-            "<script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>"
-        ],
-        "description": "Import Ionicons"
-    },
-    "Import google font": {
-        "prefix": "html-google-font",
-        "body": [
-            "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
-            "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
-            "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
-        ],
-        "description": "Import google font"
-    },
-    "Import slick slider": {
-        "prefix": "html-slick-slider",
-        "body": [
-            "<script",
-            "  type=\"text/javascript\"",
-            "  src=\"https://code.jquery.com/jquery-1.11.0.min.js\"",
-            "></script>",
-            "<script",
-            "  type=\"text/javascript\"",
-            "  src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"",
-            "></script>",
-            "<script",
-            "  type=\"text/javascript\"",
-            "  src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"",
-            "></script>"
-        ],
-        "description": "Import slick slider"
-    },
-    "Import Fontawesome": {
-        "prefix": "html-fontawesome",
-        "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" integrity=\"sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
-        ],
-        "description": "Import Fontawesome"
-    },
-    "Import favicon": {
-        "prefix": "html-favicon",
-        "body": [
-            "<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\" />"
-        ],
-        "description": "Import favicon"
-    },
-    "Slick CSS import": {
-        "prefix": "html-slick-css",
-        "body": [
-            "<link",
-            "    rel=\"stylesheet\"",
-            "    type=\"text/css\"",
-            "    href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"",
-            "  />"
-        ],
-        "description": "Slick CSS import"
-    },
-    "Slider with checkbox": {
-        "prefix": "html-slider1",
-        "body": [
-            "<div class=\"slider\">",
-            "    <input type=\"radio\" id=\"i1\" name=\"images\" checked>",
-            "    <input type=\"radio\" id=\"i2\" name=\"images\">",
-            "    <input type=\"radio\" id=\"i3\" name=\"images\">",
-            "    <div class=\"slider-item\" id=\"item1\">",
-            "      <img",
-            "        src=\"https://source.unsplash.com/random\"",
-            "        alt=\"\">",
-            "      <label class=\"prev\" for=\"i3\">",
-            "        <ion-icon name=\"chevron-back-outline\"></ion-icon>",
-            "      </label>",
-            "      <label class=\"next\" for=\"i2\">",
-            "        <ion-icon name=\"chevron-forward-outline\"></ion-icon>",
-            "      </label>",
-            "    </div>",
-            "    <div class=\"slider-item\" id=\"item2\">",
-            "      <img",
-            "        src=\"https://source.unsplash.com/random\"",
-            "        alt=\"\">",
-            "      <label class=\"prev\" for=\"i1\">",
-            "        <ion-icon name=\"chevron-back-outline\"></ion-icon>",
-            "      </label>",
-            "      <label class=\"next\" for=\"i3\">",
-            "        <ion-icon name=\"chevron-forward-outline\"></ion-icon>",
-            "      </label>",
-            "    </div>",
-            "    <div class=\"slider-item\" id=\"item3\">",
-            "      <img",
-            "        src=\"https://source.unsplash.com/random\"",
-            "        alt=\"\">",
-            "      <label class=\"prev\" for=\"i2\">",
-            "        <ion-icon name=\"chevron-back-outline\"></ion-icon>",
-            "      </label>",
-            "      <label class=\"next\" for=\"i1\">",
-            "        <ion-icon name=\"chevron-forward-outline\"></ion-icon>",
-            "      </label>",
-            "    </div>",
-            "    <div id=\"nav_slide\">",
-            "      <label for=\"i1\" class=\"dots\" id=\"dot1\"></label>",
-            "      <label for=\"i2\" class=\"dots\" id=\"dot2\"></label>",
-            "      <label for=\"i3\" class=\"dots\" id=\"dot3\"></label>",
-            "    </div>",
-            "  </div>"
-        ],
-        "description": "html-slider"
-    },
-    "UI Navigation Effect": {
-        "prefix": "html-nav-effect",
-        "body": [
-            "<nav class=\"navigation\">",
-            "        <div class=\"btn-nav-event s-nav\">",
-            "            <div></div>",
-            "            <div></div>",
-            "            <div></div>",
-            "        </div>",
-            "        <div class=\"nav-item\">",
-            "            <div class=\"nav-link\">",
-            "                <ion-icon name=\"home-outline\"></ion-icon>",
-            "                <span>Dashboard</span>",
-            "            </div>",
-            "        </div>",
-            "        <div class=\"nav-item\">",
-            "            <div class=\"nav-link\">",
-            "                <ion-icon name=\"people-outline\"></ion-icon>",
-            "                <span>Customer</span>",
-            "            </div>",
-            "        </div>",
-            "        <div class=\"nav-item\">",
-            "            <div class=\"nav-link active\">",
-            "                <ion-icon name=\"pie-chart-outline\"></ion-icon>",
-            "                <span>Reporting</span>",
-            "            </div>",
-            "        </div>",
-            "    </nav>"
-        ],
-        "description": "navigation"
     }
 }

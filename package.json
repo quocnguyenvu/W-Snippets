@@ -3,13 +3,24 @@
     "displayName": "W Snippets",
     "description": "Code HTML CSS snippets for Front End Developer",
     "publisher": "ngvuq",
-    "version": "0.0.1",
+    "version": "0.2.1",
     "engines": {
         "vscode": "^1.63.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ngvuq11/W-Snippets"
     },
     "icon": "icon.png",
     "categories": [
         "Snippets"
+    ],
+    "keywords": [
+        "snippets",
+        "W",
+        "HTML",
+        "CSS",
+        "FrontEnd"
     ],
     "contributes": {
         "snippets": [
