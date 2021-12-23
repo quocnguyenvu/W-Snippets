@@ -6,41 +6,41 @@
 
 ## Useful CDN
 
-| Prefix            | Description                                                           |
-| ----------------- | --------------------------------------------------------------------- |
-| `cdn-ionicons`    | CDN ion-icon [`GO TO`](`https://ionic.io/ionicons`)                   |
-| `cdn-slick-js`    | CDN Slick Slider JS [`GO TO`](`https://kenwheeler.github.io/slick/`)  |
-| `cdn-slick-css`   | CDN Slick Slider CSS [`GO TO`](`https://kenwheeler.github.io/slick/`) |
-| `cdn-google-font` | CDN Google Fonts [`GO TO`](`https://fonts.google.com/`)               |
-| `cdn-fontawesome` | CDN frontaweome icon [`GO TO`](`https://fontawesome.com/`)            |
-| `cdn-swiper`      | CDN swiper slider [`GO TO`](`https://swiperjs.com/`)                  |
-| `cdn-boxicons`    | CDN box-icon [`GO TO`](`https://boxicons.com/`)                       |
+| Prefix            | Description                                                         |
+| ----------------- | ------------------------------------------------------------------- |
+| `cdn-ionicons`    | CDN ion-icon [`GO TO`](https://ionic.io/ionicons)                   |
+| `cdn-slick-js`    | CDN Slick Slider JS [`GO TO`](https://kenwheeler.github.io/slick/)  |
+| `cdn-slick-css`   | CDN Slick Slider CSS [`GO TO`](https://kenwheeler.github.io/slick/) |
+| `cdn-google-font` | CDN Google Fonts [`GO TO`](https://fonts.google.com/)               |
+| `cdn-fontawesome` | CDN frontaweome icon [`GO TO`](https://fontawesome.com/)            |
+| `cdn-swiper`      | CDN swiper slider [`GO TO`](https://swiperjs.com/)                  |
+| `cdn-boxicons`    | CDN box-icon [`GO TO`](https://boxicons.com/)                       |
 
 ## [ Useful HTML layout ] and [ HTML CSS UI Component ] and [ JavaScript UI Component ]
 
-| [`Useful HTML layout`] | [`HTML CSS UI Component`]                            | [`JavaScript UI Component`] |
-| ---------------------- | ---------------------------------------------------- | --------------------------- |
-| html-favicon           | random-image ([`UNSPLASH`](`https://unsplash.com/`)) | random-image                |
-| html-menu              | ui-nav                                               | html-menu                   |
-| html-accordion         | ui-slider                                            | html-accordion              |
-| html-tab               | ui-switch-toggle                                     | html-tab                    |
-| html-dropdown          | ui-icon-opacity                                      | html-dropdown               |
-| html-modal             | ui-button-icon                                       | html-modal                  |
-| html-linkwrap-img      | ui-tab1                                              | html-linkwrap-img           |
-|                        | ui-dropdown                                          |                             |
-|                        | ui-flex-layout1                                      |                             |
-|                        | ui-flex-layout2                                      |                             |
-|                        | ui-flex-layout3                                      |                             |
-|                        | ui-flex-layout4                                      |                             |
-|                        | ui-search1                                           |                             |
-|                        | ui-search2                                           |                             |
-|                        | ui-custom-radio                                      |                             |
-|                        | ui-custom-checkbox                                   |                             |
-|                        | ui-input-icon                                        |                             |
-|                        | ui-mega-menu                                         |                             |
-|                        | ui-menu-dropdown                                     |                             |
-|                        | ui-modal                                             |                             |
-|                        | ui-notification                                      |                             |
+| [`Useful HTML layout`] | [`HTML CSS UI Component`]                        | [`JavaScript UI Component`] |
+| ---------------------- | ------------------------------------------------ | --------------------------- |
+| html-favicon           | random-image [`UNSPLASH`](https://unsplash.com/) | random-image                |
+| html-menu              | ui-nav                                           | html-menu                   |
+| html-accordion         | ui-slider                                        | html-accordion              |
+| html-tab               | ui-switch-toggle                                 | html-tab                    |
+| html-dropdown          | ui-icon-opacity                                  | html-dropdown               |
+| html-modal             | ui-button-icon                                   | html-modal                  |
+| html-linkwrap-img      | ui-tab1                                          | html-linkwrap-img           |
+|                        | ui-dropdown                                      |                             |
+|                        | ui-flex-layout1                                  |                             |
+|                        | ui-flex-layout2                                  |                             |
+|                        | ui-flex-layout3                                  |                             |
+|                        | ui-flex-layout4                                  |                             |
+|                        | ui-search1                                       |                             |
+|                        | ui-search2                                       |                             |
+|                        | ui-custom-radio                                  |                             |
+|                        | ui-custom-checkbox                               |                             |
+|                        | ui-input-icon                                    |                             |
+|                        | ui-mega-menu                                     |                             |
+|                        | ui-menu-dropdown                                 |                             |
+|                        | ui-modal                                         |                             |
+|                        | ui-notification                                  |                             |
 
 ## CSS snippets
 
