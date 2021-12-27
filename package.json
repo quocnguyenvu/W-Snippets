@@ -3,7 +3,7 @@
     "displayName": "W Snippets",
     "description": "Code HTML CSS snippets for Front End Developer",
     "publisher": "ngvuq",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -20,7 +20,18 @@
         "W",
         "HTML",
         "CSS",
-        "FrontEnd"
+        "FrontEnd",
+        "SCSS",
+        "ngvuq",
+        "extensions",
+        "new",
+        "tool",
+        "layout",
+        "code",
+        "js",
+        "react",
+        "DOM",
+        "css3"
     ],
     "contributes": {
         "snippets": [
