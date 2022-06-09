@@ -1,4 +1,4 @@
-# W Snippets Extension for FrontEnd Developer by ngvuq
+# W Snippets for CSS
 
 ### Useful HTML and CSS snippets that will help you save a lot of time when coding.
 
@@ -99,5 +99,3 @@
 | `scrollbar`           | CSS scroll bar                                                                                   |
 
 ## Enjoy ^.^
-
-**Enjoy!**
