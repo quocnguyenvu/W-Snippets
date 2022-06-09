@@ -1,158 +1,158 @@
-{
-    "Import Ionicons": {
-        "prefix": "cdn-ionicons",
-        "body": [
-            "<script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>",
-            "<script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>"
-        ],
-        "description": "Import Ionicons"
-    },
-    "Import google font": {
-        "prefix": "cdn-google-font",
-        "body": [
-            "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
-            "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
-            "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
-        ],
-        "description": "Import google font"
-    },
-    "Import slick slider": {
-        "prefix": "cdn-slick-js",
-        "body": [
-            "<script",
-            "  type=\"text/javascript\"",
-            "  src=\"https://code.jquery.com/jquery-1.11.0.min.js\"",
-            "></script>",
-            "<script",
-            "  type=\"text/javascript\"",
-            "  src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"",
-            "></script>",
-            "<script",
-            "  type=\"text/javascript\"",
-            "  src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"",
-            "></script>"
-        ],
-        "description": "Import slick slider"
-    },
-    "Import Fontawesome": {
-        "prefix": "cdn-fontawesome",
-        "body": [
-            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" integrity=\"sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
-        ],
-        "description": "Import Fontawesome"
-    },
-    "Slick CSS import": {
-        "prefix": "cdn-slick-css",
-        "body": [
-            "<link",
-            "    rel=\"stylesheet\"",
-            "    type=\"text/css\"",
-            "    href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"",
-            "  />"
-        ],
-        "description": "Slick CSS import"
-    },
-    "Swiper Slider CDN": {
-        "prefix": "cdn-swiper",
-        "body": [
-            "<link",
-            "  rel=\"stylesheet\"",
-            "  href=\"https://unpkg.com/swiper@7/swiper-bundle.min.css\"",
-            "/>",
-            "",
-            "<script src=\"https://unpkg.com/swiper@7/swiper-bundle.min.js\"></script>"
-        ],
-        "description": "Swiper Slider CDN"
-    },
-    "Box Icon CSS CDN": {
-        "prefix": "cdn-boxicons",
-        "body": [
-            "<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>"
-        ],
-        "description": "Box Icon CSS CDN"
-    },
-    "Import favicon": {
-        "prefix": "html-favicon",
-        "body": [
-            "<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\" />"
-        ],
-        "description": "Import favicon"
-    },
-    "UI Component for menu": {
-        "prefix": "html-menu",
-        "body": [
-            "<ul class=\"${1:menu}\">",
-            "  <li class=\"${1:menu}-item\">",
-            "    <a href=\"${2:#}\" class=\"${1:menu}-link\">${0}</a>",
-            "  </li>",
-            "</ul>",
-            ""
-        ],
-        "description": "UI Component for menu"
-    },
+// {
+//     "Import Ionicons": {
+//         "prefix": "cdn-ionicons",
+//         "body": [
+//             "<script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>",
+//             "<script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>"
+//         ],
+//         "description": "Import Ionicons"
+//     },
+//     "Import google font": {
+//         "prefix": "cdn-google-font",
+//         "body": [
+//             "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+//             "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+//             "<link href=\"https://fonts.googleapis.com/css2?family=${1:Poppins}:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
+//         ],
+//         "description": "Import google font"
+//     },
+//     "Import slick slider": {
+//         "prefix": "cdn-slick-js",
+//         "body": [
+//             "<script",
+//             "  type=\"text/javascript\"",
+//             "  src=\"https://code.jquery.com/jquery-1.11.0.min.js\"",
+//             "></script>",
+//             "<script",
+//             "  type=\"text/javascript\"",
+//             "  src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"",
+//             "></script>",
+//             "<script",
+//             "  type=\"text/javascript\"",
+//             "  src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"",
+//             "></script>"
+//         ],
+//         "description": "Import slick slider"
+//     },
+//     "Import Fontawesome": {
+//         "prefix": "cdn-fontawesome",
+//         "body": [
+//             "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" integrity=\"sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
+//         ],
+//         "description": "Import Fontawesome"
+//     },
+//     "Slick CSS import": {
+//         "prefix": "cdn-slick-css",
+//         "body": [
+//             "<link",
+//             "    rel=\"stylesheet\"",
+//             "    type=\"text/css\"",
+//             "    href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"",
+//             "  />"
+//         ],
+//         "description": "Slick CSS import"
+//     },
+//     "Swiper Slider CDN": {
+//         "prefix": "cdn-swiper",
+//         "body": [
+//             "<link",
+//             "  rel=\"stylesheet\"",
+//             "  href=\"https://unpkg.com/swiper@7/swiper-bundle.min.css\"",
+//             "/>",
+//             "",
+//             "<script src=\"https://unpkg.com/swiper@7/swiper-bundle.min.js\"></script>"
+//         ],
+//         "description": "Swiper Slider CDN"
+//     },
+//     "Box Icon CSS CDN": {
+//         "prefix": "cdn-boxicons",
+//         "body": [
+//             "<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>"
+//         ],
+//         "description": "Box Icon CSS CDN"
+//     },
+//     "Import favicon": {
+//         "prefix": "html-favicon",
+//         "body": [
+//             "<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\" />"
+//         ],
+//         "description": "Import favicon"
+//     },
+//     "UI Component for menu": {
+//         "prefix": "html-menu",
+//         "body": [
+//             "<ul class=\"${1:menu}\">",
+//             "  <li class=\"${1:menu}-item\">",
+//             "    <a href=\"${2:#}\" class=\"${1:menu}-link\">${0}</a>",
+//             "  </li>",
+//             "</ul>",
+//             ""
+//         ],
+//         "description": "UI Component for menu"
+//     },
 
-    "UI Component for accordion": {
-        "prefix": "html-accordion",
-        "body": [
-            "<div class=\"${0:accordion}\">",
-            "  <div class=\"${0:accordion}-header\">Your header</div>",
-            "  <div class=\"${0:accordion}-content\">Your content</div>",
-            "</div>",
-            ""
-        ],
-        "description": "UI Component for accordion"
-    },
-    "UI Component for tab": {
-        "prefix": "html-tab",
-        "body": [
-            "<div class=\"${0:tab}\">",
-            "  <div class=\"${0:tab}-header\">",
-            "    <div class=\"${0:tab}-item\">title</div>",
-            "    <div class=\"${0:tab}-item\">title</div>",
-            "    <div class=\"${0:tab}-item\">title</div>",
-            "  </div>",
-            "  <div class=\"${0:tab}-content\">content</div>",
-            "</div>",
-            ""
-        ],
-        "description": "UI Component for tab"
-    },
-    "UI Component for dropdown": {
-        "prefix": "html-dropdown",
-        "body": [
-            "<div class=\"${0:dropdown}\">",
-            "  <div class=\"${0:dropdown}-select\">",
-            "    <span class=\"${0:dropdown}-value\">Value</span>",
-            "  </div>",
-            "  <div class=\"${0:dropdown}-list\">",
-            "    <div class=\"${0:dropdown}-item\">title</div>",
-            "    <div class=\"${0:dropdown}-item\">title</div>",
-            "    <div class=\"${0:dropdown}-item\">title</div>",
-            "  </div>",
-            "</div>"
-        ],
-        "description": "UI Component for dropdown"
-    },
-    "UI Component for modal": {
-        "prefix": "html-modal",
-        "body": [
-            "<div class=\"${0:modal}\">",
-            "  <div class=\"${0:modal}-container\">",
-            "    <div class=\"${0:modal}-close\">X</div>",
-            "    <div class=\"${0:modal}-content\">your content</div>",
-            "  </div>",
-            "</div>",
-            ""
-        ],
-        "description": "UI Component for modal"
-    },
-    "UI Component for link wrapped image": {
-        "prefix": "html-linkwrap-img",
-        "body": [
-            "<a href=\"#\" class=\"${0:yourclass}\">",
-            "  <img src=\"${1}\" alt=\"\" class=\"${0:yourclass}-image\" />",
-            "</a>"
-        ],
-        "description": "UI Component for link wrapped image"
-    }
-}
+//     "UI Component for accordion": {
+//         "prefix": "html-accordion",
+//         "body": [
+//             "<div class=\"${0:accordion}\">",
+//             "  <div class=\"${0:accordion}-header\">Your header</div>",
+//             "  <div class=\"${0:accordion}-content\">Your content</div>",
+//             "</div>",
+//             ""
+//         ],
+//         "description": "UI Component for accordion"
+//     },
+//     "UI Component for tab": {
+//         "prefix": "html-tab",
+//         "body": [
+//             "<div class=\"${0:tab}\">",
+//             "  <div class=\"${0:tab}-header\">",
+//             "    <div class=\"${0:tab}-item\">title</div>",
+//             "    <div class=\"${0:tab}-item\">title</div>",
+//             "    <div class=\"${0:tab}-item\">title</div>",
+//             "  </div>",
+//             "  <div class=\"${0:tab}-content\">content</div>",
+//             "</div>",
+//             ""
+//         ],
+//         "description": "UI Component for tab"
+//     },
+//     "UI Component for dropdown": {
+//         "prefix": "html-dropdown",
+//         "body": [
+//             "<div class=\"${0:dropdown}\">",
+//             "  <div class=\"${0:dropdown}-select\">",
+//             "    <span class=\"${0:dropdown}-value\">Value</span>",
+//             "  </div>",
+//             "  <div class=\"${0:dropdown}-list\">",
+//             "    <div class=\"${0:dropdown}-item\">title</div>",
+//             "    <div class=\"${0:dropdown}-item\">title</div>",
+//             "    <div class=\"${0:dropdown}-item\">title</div>",
+//             "  </div>",
+//             "</div>"
+//         ],
+//         "description": "UI Component for dropdown"
+//     },
+//     "UI Component for modal": {
+//         "prefix": "html-modal",
+//         "body": [
+//             "<div class=\"${0:modal}\">",
+//             "  <div class=\"${0:modal}-container\">",
+//             "    <div class=\"${0:modal}-close\">X</div>",
+//             "    <div class=\"${0:modal}-content\">your content</div>",
+//             "  </div>",
+//             "</div>",
+//             ""
+//         ],
+//         "description": "UI Component for modal"
+//     },
+//     "UI Component for link wrapped image": {
+//         "prefix": "html-linkwrap-img",
+//         "body": [
+//             "<a href=\"#\" class=\"${0:yourclass}\">",
+//             "  <img src=\"${1}\" alt=\"\" class=\"${0:yourclass}-image\" />",
+//             "</a>"
+//         ],
+//         "description": "UI Component for link wrapped image"
+//     }
+// }
