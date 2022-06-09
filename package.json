@@ -1,88 +1,107 @@
 {
-    "name": "w-snippets",
-    "displayName": "W Snippets",
-    "description": "Code HTML CSS snippets for Front End Developer",
-    "publisher": "ngvuq",
-    "version": "0.2.3",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ngvuq11/W-Snippets"
-    },
-    "icon": "icon.png",
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "snippets",
-        "W",
-        "HTML",
-        "CSS",
-        "FrontEnd",
-        "SCSS",
-        "ngvuq",
-        "extensions",
-        "new",
-        "tool",
-        "layout",
-        "code",
-        "js",
-        "react",
-        "DOM",
-        "css3"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "css",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "scss",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "styled-css",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "source.css.styled",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.code-snippets"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/ui.code-snippets"
-            },
-            {
-                "language": "svelte",
-                "path": "./snippets/html.code-snippets"
-            },
-            {
-                "language": "svelte",
-                "path": "./snippets/ui.code-snippets"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/javascriptreact.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/javascriptreact.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/javascriptreact.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/javascriptreact.code-snippets"
-            }
-        ]
-    }
+  "name": "w-snippets",
+  "displayName": "W Snippets",
+  "description": "HTML, CSS, JS, ReactJS snippets for Developer",
+  "publisher": "ngvuq",
+  "version": "0.2.4",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngvuq11/W-Snippets"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippets",
+    "W",
+    "HTML",
+    "CSS",
+    "FrontEnd",
+    "SCSS",
+    "ngvuq",
+    "extensions",
+    "new",
+    "tool",
+    "layout",
+    "code",
+    "js",
+    "react",
+    "DOM",
+    "css3",
+    "react",
+    "js",
+    "jsx"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "styled-css",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "source.css.styled",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/ui.code-snippets"
+      },
+      {
+        "language": "svelte",
+        "path": "./snippets/html.code-snippets"
+      },
+      {
+        "language": "svelte",
+        "path": "./snippets/ui.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascriptreact.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascriptreact.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascriptreact.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascriptreact.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/reactsnippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/reactsnippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/reactsnippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/reactsnippets.code-snippets"
+      }
+    ]
+  }
 }
