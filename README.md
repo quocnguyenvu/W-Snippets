@@ -1,8 +1,8 @@
-# W Snippets for CSS
+# W Snippets for CSS or JavaScript
 
-### Useful HTML and CSS snippets that will help you save a lot of time when coding.
+### Useful snippets that will help you save a lot of time when coding.
 
-- Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/)
+- Contact me: [`FaceBook`](https://www.facebook.com/ngvuq.11/) | [`Instagram`](https://www.instagram.com/__n0wayy/)
 
 ## CSS snippets
 

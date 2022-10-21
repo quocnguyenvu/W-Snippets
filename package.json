@@ -1,9 +1,9 @@
 {
   "name": "w-snippets",
   "displayName": "W Snippets",
-  "description": "HTML, CSS, JS, ReactJS snippets for Developer",
+  "description": "HTML, CSS, JS snippets for Developer",
   "publisher": "ngvuq",
-  "version": "0.2.4",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.63.0"
   },
@@ -56,18 +56,6 @@
       },
       {
         "language": "html",
-        "path": "./snippets/html.code-snippets"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/ui.code-snippets"
-      },
-      {
-        "language": "svelte",
-        "path": "./snippets/html.code-snippets"
-      },
-      {
-        "language": "svelte",
         "path": "./snippets/ui.code-snippets"
       },
       {
