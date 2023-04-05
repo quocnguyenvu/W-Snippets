@@ -783,5 +783,98 @@
       "}"
     ],
     "description": "CSS scroll bar"
+  },
+  "Media container": {
+    "prefix": "container-2",
+    "body": [
+      "@media screen and (min-width: 1400px) {",
+      "  .container {",
+      "    max-width: 1320px;",
+      "  }",
+      "}",
+      "@media screen and (min-width: 1200px) {",
+      "  .container {",
+      "    max-width: 1140px;",
+      "  }",
+      "}",
+      "@media screen and (min-width: 992px) {",
+      "  .container {",
+      "    max-width: 960px;",
+      "  }",
+      "}",
+      "@media screen and (max-width: 768px) {",
+      "  .container {",
+      "    max-width: 720px;",
+      "  }",
+      "}",
+      "@media screen and (max-width: 576px) {",
+      "  .container {",
+      "    max-width: 540px;",
+      "  }",
+      "}",
+      ".container {",
+      "  width: 100%;",
+      "  margin-left: auto;",
+      "  margin-right: auto;",
+      "  padding: 20px;",
+      "}"
+    ],
+    "description": "Media container"
+  },
+  "Container 3": {
+    "prefix": "container-3",
+    "body": [
+      ".container {",
+      "  width: min(100% - 30px, 840px);",
+      "  margin-inline: auto;",
+      "}"
+    ],
+    "description": "Container 3"
+  },
+  "Flex layout 2": {
+    "prefix": "flex-layout-2",
+    "body": [
+      ".parent {",
+      "  --columns: 4;",
+      "  --gap: 20px;",
+      "}",
+      ".item {",
+      "  flex-basis: calc(",
+      "    (100% / var(--columns)) - (var(--gap) * (var(--columns) - 1)) /",
+      "      var(--columns)",
+      "  );",
+      "}"
+    ],
+    "description": "Flex layout 2"
+  },
+  "Media screen min width": {
+    "prefix": "screen-1",
+    "body": [
+      "@media screen and (min-width: 1400px) {",
+      "}",
+      "@media screen and (min-width: 1200px) {",
+      "}",
+      "@media screen and (min-width: 992px) {",
+      "}",
+      "@media screen and (max-width: 768px) {",
+      "}",
+      "@media screen and (max-width: 576px) {",
+      "}"
+    ],
+    "description": "Media min width"
+  },
+  "Data theme": {
+    "prefix": "data-theme",
+    "body": [
+      "[data-theme='light'] {",
+      "  --background: #f7f8fa;",
+      "  --text-color: #272829;",
+      "}",
+      "[data-theme='dark'] {",
+      "  --background: #1f2028;",
+      "  --text-color: #ffffff;",
+      "}"
+    ],
+    "description": "Data theme"
   }
 }
